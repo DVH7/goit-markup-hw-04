@@ -203,6 +203,15 @@ p {
   margin-top: 0;
   margin-bottom: 8px;
 }
+
+.vector{
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-batton-color);
+}
 .preference {
   display: flex;
   text-align: left;
@@ -294,16 +303,6 @@ border-radius: 0px 0px 4px 4px
   .client-link:focus {
   fill: var(--accent-color);
 }
-
- /*.client-link:hover,
-  .client-link:focus{
-  fill: var(--accent-color);}*/
-
-
-
-
-
-
 
      /* Button*/
 
