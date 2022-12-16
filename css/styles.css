@@ -147,7 +147,7 @@ p {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--title-text-color);
+  background-color: tomato;
   background-image:linear-gradient( to left,  rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
