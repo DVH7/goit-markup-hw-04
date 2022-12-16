@@ -1,6 +1,6 @@
 :root {
   --primary-text-color: rgba(67, 68, 85, 1);
-  --title-text-color: rgba(46, 47, 66, 1);
+  --title-text-color: rgb(46, 47, 66);
   --accent-color: rgba(77, 90, 229, 1);
   --primary-bcg-color: #ffffff;
   --main-batton-color: #F4F4FD;
@@ -147,7 +147,7 @@ p {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: tomato;
+  background-color: var(--title-text-color);
   background-image:linear-gradient( to left,  rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../img/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
